@@ -1,0 +1,114 @@
+p {
+	color: #555555;
+	margin: 0;
+	padding: 0;
+}
+
+strong {
+	color: #0073AA;
+}
+
+.cv-view {
+    margin: 5px;
+}
+
+.cv-view-field {
+	padding: 6px;
+}
+
+.cv-view-field:nth-child(2n-1) {
+    background: #F9F9F9;
+}
+
+.comment {
+	margin: 10px;
+}
+
+.comment textarea{
+	resize: none;
+	width: 100%;
+}
+
+.cv-view-buttons input[type="submit"] {
+	background-color: #F7F7F7;
+	border: 1px solid #CCCCCC;
+	border-radius: 3px;
+	border-bottom: 2px solid #CCCCCC;
+	width: 128px;
+}
+
+.cv-view-buttons input[type="submit"]:hover {
+	background-color: #FAFAFA;
+	border: 1px solid #999999;
+	border-radius: 3px;
+	border-bottom: 2px solid #999999;
+	cursor: pointer;
+}
+
+.cv-view-photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cv-view-photo img{
+	margin-top: 50px;
+	min-width: 50%;
+	max-width: 70%;
+	border: 1px solid #DDDDDD;
+}
+
+.col-7 {
+	background: #FFF;
+	border: 1px solid #DDDDDD;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11 {
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.col-1 { width: 8.333333333333332%;  }
+.col-2 { width: 16.666666666666664%; }
+.col-3 { width: 25%; }
+.col-4 { width: 33.33333333333333%;  }
+.col-5 { width: 41.66666666666667%;  }
+.col-6 { width: 50%; }
+.col-7 { width: 58.333333333333336%; }
+.col-8 { width: 66.66666666666666%;  }
+.col-9 { width: 75%; }
+.col-10{ width: 83.33333333333334%;  }
+.col-11{ width: 91.66666666666666%;  }
+.col-12{ width: 100%;}
+
+.clear {clear:both;}
+
+
+.image-block {
+    width: 128px;
+    float: left;
+    border: 10px solid #FFF;
+}
+.image-block input[type="submit"] {
+    margin: 0 auto;
+    display: block;
+}
+.admin__university-icon {
+	position: absolute;
+    width: 128px;
+    height: 128px;
+    top: 180px;
+    right: 15px;
+    border: 3px solid gray;
+    box-shadow: 0 2px 5px -1px black;
+}
+.admin__university-gallery img {
+    margin: 15px;
+}
+.admin__university-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
